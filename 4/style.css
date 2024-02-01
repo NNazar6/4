@@ -1,0 +1,32 @@
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.sheet{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 250px;
+    pad: 30px;
+    font-size: 15px;
+    background-color: #dfecd4;
+    border: 2px solid #000;
+}
+
+.light{
+    background-color: #5e0e0e;
+}
+.ball{
+    position: absolute;
+    padding: 50px;
+    background-color: #c33939;
+    border-radius: 50%;
+    color: #000;
+}
+.fields{
+    background-color: #000;
+    padding: 500px;
+}
